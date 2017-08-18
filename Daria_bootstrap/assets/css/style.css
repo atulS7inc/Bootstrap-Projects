@@ -1,0 +1,128 @@
+html,body {
+        height:100%;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 1.1em;
+}
+
+body {
+	padding-top:48px;
+}
+
+.navbar {
+	padding:0 10px;
+}
+
+.navbar .navbar-nav li{
+	padding:0 20px;
+}
+
+/* SECTION main*/
+#main .main-logo {
+	padding:50px 0px;
+}
+
+#main .main-logo img {
+	display: block;
+	margin:0 auto;
+}
+
+#main .main-slider {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	max-height: 350px;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+/* Content Section*/
+
+#content {
+	padding:3rem 0;
+}
+
+#content .sidebar {
+	border-left: 1px solid #ccc;
+}
+
+#content .sidebar .sb-nav .list-group .list-group-item{
+	padding:8px;
+	margin-bottom: 1px;
+	border-radius: 0px;
+	background-color: #292b2c;
+	transition: border-bottom-width 0.2s ease, border-bottom-color 0.2s ease;
+}
+#content .sidebar .sb-nav .list-group .list-group-item:hover{
+	border-bottom-width: 100%;
+	border-bottom-color: blue;
+}
+#content .sidebar .sb-nav .list-group .list-group-item:hover:after{
+	border-bottom-width: 0%;
+	border-bottom-color: transparent;
+}
+
+
+#content .sidebar .sb-nav .list-group .list-group-item a {
+	color:#fff;
+	text-decoration: none;
+}
+
+#content .sidebar .sb-blocks {
+	margin-top: 20px;
+}
+
+#content .table th,td{
+	text-align: center;
+	border: 1px solid #ccc !important;
+	padding:20px !important;
+}
+
+/* Footer section */
+#footer .footer-upper {
+	background-color: #eeeeee;
+	padding:3rem;
+	font-size: 0.8em;
+}
+
+#footer ul a{
+	color:black;
+	text-decoration: none;
+}
+
+#footer .suscribe input{
+	font-size: 0.8em;
+	border-radius: 0px;
+}
+
+#footer .suscribe button {
+	margin-left: 2px;
+	padding-top:8px;
+	padding-bottom:8px;
+	border-radius: 0px;
+	/*height:35px;*/
+	font-size: 0.9em;
+}
+
+#footer .navbar {
+	display: flex;
+	align-items : center;
+	justify-content: center;
+	background-color: #292b2c;
+	color: #fff;
+	padding-top: 20px;
+}
+
+/*move top */
+#move-top {
+	text-align: center;
+	position: fixed;
+	bottom:10px;
+	right: 5px;
+	width:40px;
+	height:40px;
+	background-color: #D9534F;
+}
+#move-top a {
+	vertical-align: middle;
+	color: #fff;
+	padding-top: 10px;
+}
